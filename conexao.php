@@ -9,9 +9,9 @@ $mysqli = new mysqli($host, $username, $password, $database);
 if ($mysqli->connect_error) {
     echo "Falha ao conectar ao banco de dados: " . $mysqli->connect_error;
 } else {
-    echo "Conexão bem-sucedida ao banco de dados!";
+    echo "";
 }
 
 
-$mysqli->close();
+;
 ?>
